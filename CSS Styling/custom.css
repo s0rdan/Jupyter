@@ -1,0 +1,133 @@
+@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+div#notebook {background-color: #ffffff; border-top: none;}
+div#notebook-container {background-color: #ffffff;}
+
+div#header-container { display: none; }
+
+/*a {color: #000000; font-family: 'Helvetica', sans-serif; font-size: 8pt;}
+
+/*body {
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 12pt;
+    line-height: 1.;
+    color: #000000;
+}*/
+
+div.body {
+    font-family: CMU Bright, sans-serif;
+}
+
+div.text_cell_render {
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 11pt;
+    line-height: 1.3;
+    color: #000000;
+}
+
+.container{
+    width:80% !important;
+}
+
+
+div.output.output_scroll {
+    box-shadow: none;
+}
+div.output_subarea {
+    flex:None;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prompt {
+    font-family: Inconsolata, monospace;
+    font-size: 10pt;
+}
+
+div.input_prompt {
+    color: rgba(171, 171, 171, 0);
+}
+
+div.output_prompt {
+    color: rgba(171, 171, 171, 0);
+}
+
+div.output_subarea pre {
+    font-family: Inconsolata, monspace;
+    font-size: 10pt;
+}    
+
+img[alt="std"] { 
+  max-width:  500px; 
+  display: block;
+}
+
+div.output_text {
+    flex: 1;
+}
+
+/*Scroll bars*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #ffffff; 
+}
+
+
+.CodeMirror pre {
+    font-family: Inconsolata, monospace;
+}
+
+div.cell.selected {
+    border: 1px solid rgba(171, 171, 171, .2);
+}
+
+.edit_mode div.cell.selected {
+    border: 1px solid rgba(171, 171, 171, .2);
+}
+
+
+span.ansiblack {color: #2e2f30;}
+span.ansiblue {color: #80b1d3;}
+span.ansigray {color: #959697;}
+span.ansigreen {color: #31a354;}
+span.ansipurple {color: #756bb1;}
+span.ansired {color: #e31a1c;}
+span.ansiyellow {color: #dca060;}
+
+div.output_stderr {background-color: #e31a1c;}
+div.output_stderr pre {color: #dadbdc;}
+
+.cm-s-ipython.CodeMirror {background: #fcfdfe; color: #2e2f30;}
+.cm-s-ipython div.CodeMirror-selected {background: #dadbdc !important;}
+.cm-s-ipython .CodeMirror-gutters {background: #fcfdfe; border-right: 0px;}
+.cm-s-ipython .CodeMirror-linenumber {color: #959697;}
+.cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #737475 !important;}
+
+.cm-s-ipython span.cm-comment {color: #737475;}
+.cm-s-ipython span.cm-atom {color: #756bb1;}
+.cm-s-ipython span.cm-number {color: #e6550d;}
+
+.cm-s-ipython span.cm-property, .cm-s-ipython span.cm-attribute {color: #31a354;}
+.cm-s-ipython span.cm-keyword {color: #756bb1;}
+.cm-s-ipython span.cm-string {color: #31a354;}
+.cm-s-ipython span.cm-operator {color: #2e2f30;}
+.cm-s-ipython span.cm-builtin {color: #756bb1;}
+
+.cm-s-ipython span.cm-variable {color: #515253;}
+.cm-s-ipython span.cm-variable-2 {color: #3182bd;}
+.cm-s-ipython span.cm-def {color: #e6550d;}
+.cm-s-ipython span.cm-error {color: #e31a1c;}
+.cm-s-ipython span.cm-bracket {color: #515253;}
+.cm-s-ipython span.cm-tag {color: #e31a1c;}
+.cm-s-ipython span.cm-link {color: #756bb1;}
+.cm-s-ipython span.cm-meta {color: #e31a1c;}
