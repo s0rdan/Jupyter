@@ -54,7 +54,7 @@ div.output_prompt {
 }
 
 div.output_subarea pre {
-    font-family: Inconsolata, monspace;
+    font-family: Inconsolata, monospace;
     font-size: 10pt;
 }    
 
